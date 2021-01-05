@@ -1,0 +1,44 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.calculator {
+    padding: 5px;
+    border: 1px solid black;
+    width: 800px;
+}
+
+.result-area {
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: right;
+    font-size: 32px;
+}
+
+.btn-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.btn_area {
+    width: 25%;
+}
+
+button {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: lightgray;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 32px;
+}
+
+.btn_bottom {
+    width: 50%;
+}
